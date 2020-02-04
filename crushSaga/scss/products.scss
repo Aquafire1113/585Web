@@ -1,0 +1,34 @@
+.products{
+    height:100%;
+    width:100%;
+    background-color:$site-background;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.productDiv{
+    height:400px;
+    width:300px;
+    border-radius:25px;
+    background-color:$site-color;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.productImg{
+    width:100%;
+}
+
+.productHeader{
+    font-family:$candy-font;
+    color:$site-background;
+}
+
+.productDiv p{
+    color:$site-font-color;
+    width:85%;
+    font-family:$site-font;
+}

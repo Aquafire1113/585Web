@@ -1,0 +1,44 @@
+{
+    "MainNav":[
+        {
+            "path":"home",
+            "link":"Home"
+        },
+        {
+            "path": "about", 
+            "link": "About"
+        }, 
+        {
+            "path":"products",
+            "link": "Products"
+        },
+        {
+            "path":"facebook",
+            "link":"<a target='_blank' class='social' href='https://www.instagram.com/candycrushsaga/'><img src='images/instagram.png'></a>"
+        },
+        {
+            "path":"facebook",
+            "link":"<a target='_blank' class='social' href='https://www.facebook.com/candycrushsaga/'><img src='images/facebook.png'></a>"
+        },
+        {
+            "path":"facebook",
+            "link":"<a class='social' href='https://twitter.com/CandyCrushSaga'><img src='images/twitter.png'></a>"
+        }
+
+    ], 
+
+    "Pages": [
+        {
+            "pageName": "home",
+            "content": "<section class='home'><div class='callout'><h1>Smashing Candy for Generations</h1></div></section>"
+        },
+        {
+            "pageName": "about",
+            "content": "<section class='about'><div class='left'><h2>About us:</h2><p>Candy Crushers Co. Is here to present all forms of candy crush to the user at the touch of a button. On our site, you will find information about who we are, what we do, and the products that we hold. The products are all relative to the Candy Crush saga lovers.</p></div><div class='right'><img class='aboutImg' src='images/hero.jpg'></div></section><section class='mission'><div class='left'><h2>Our Mission</h2><p>Candy crusher is here to assist with all of your Candy Crush cravings. We vow to have Candy crush available for you whenever and where you want, all at the click of a button. Happy crushing! </p></div><div class='right'><img class='missionImg' src='images/crushSaga.png'><img class='missionImg' src='images/kingIcon.png'></div></section>"
+        },
+        {
+            "pageName": "products",
+            "content": "<section class='products'><div class='productDiv'><a target='_blank' href='https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=en_US'><img class='productImg' src='images/crushSaga.png'></a><h2 class='productHeader'>Candy Crush Saga</h2><p>The original game, come and play the original!</p></div><div class='productDiv'><a target='_blank' href='https://play.google.com/store/apps/details?id=com.king.candycrushsodasaga&hl=en_US'><img class='productImg' src='images/sodaCrush.jpg'></a><h2 class='productHeader'>Soda Crush Saga</h2><p>The new soda crush game, come and play the the new one!</p></div><div class='productDiv'><a target='_blank' href='https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=en_US'><img class='productImg' src='images/crushSaga.png'></a><h2 class='productHeader'>Placeholder Saga</h2><p>The original placeholder to add more content.</p></div></section>"
+        }
+    ]
+}

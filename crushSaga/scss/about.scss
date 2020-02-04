@@ -1,0 +1,60 @@
+.about{
+    height:100%;
+    width:100%;
+    background-color:$site-background;
+    display:flex;
+    padding-top:100px;
+    left:0;
+}
+
+.left{
+    height:100%;
+    width:50%;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction:column
+}
+
+.left p{
+    color:$site-color;
+    width: 80%;
+    font-family:$site-font;
+    margin-left:100px;
+}
+
+.left h2{
+    color:$site-color;
+    font-family:$candy-font;
+    margin-bottom:20px;
+    margin-left:100px;
+    font-size:40px;
+}
+
+.right{
+    height:100%;
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction:column;
+}
+
+.aboutImg{
+    width:80%;
+    border-radius:30px;
+}
+
+.mission{
+    height:100%;
+    width:100%;
+    background-color:$site-secondary;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:100px;
+}
+
+.missionImg{
+    width:40%;
+}

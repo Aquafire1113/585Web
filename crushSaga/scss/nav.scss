@@ -1,0 +1,21 @@
+nav{
+    height:100px;
+    width:100%;
+    background-color:$site-color;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    position:fixed;
+}
+
+nav a{
+    font-family:$site-font;
+    color:$site-font-color;
+    text-decoration:none;
+}
+
+.social img{
+    height:60px;
+    width:60px;
+    object-fit:cover;
+}
