@@ -47,85 +47,266 @@ nav a {
   font-size: 40px;
   text-align: right; }
 
-.about {
+.home2 {
+  height: 100%;
+  width: 100%;
+  background-color: #F4BBD3;
+  display: flex;
+  padding-top: 100px; }
+
+.left, .right {
+  height: 100%;
+  width: 50%;
+  display: flex; }
+
+.home2 .left {
+  align-items: center;
+  justify-content: center; }
+
+.home2 .right {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+ul {
+  list-style-type: square; }
+
+li {
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 25px; }
+
+.pageHeader {
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px; }
+
+.candyPic {
+  width: 80%; }
+
+.home3 {
   height: 100%;
   width: 100%;
   background-color: #F1E4F3;
   display: flex;
   padding-top: 100px;
-  left: 0; }
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .home3 div {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
 
-.left {
+.playImg {
+  width: 20%; }
+
+.home4 {
   height: 100%;
-  width: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F4BBD3; }
+
+.inputBox {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+input {
+  height: 55px;
+  width: 400px;
+  border-style: none;
+  font-size: 35px; }
+
+.btn {
+  height: 55px;
+  width: 200px;
+  background-color: #F686BD;
+  color: white;
+  margin: 15px;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .5s; }
+
+.btn:hover {
+  background-color: #d474a3; }
+
+span {
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  margin: 10px; }
+
+.about {
+  height: 100%;
+  width: 100%;
+  background-color: #F1E4F3;
+  display: flex;
+  padding-top: 100px; }
+
+.about .left {
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 200px; }
+
+.about .right {
+  align-items: center;
+  justify-content: center; }
+
+.text {
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  width: 400px; }
+
+.aboutBtn {
+  margin: 0;
+  margin-top: 50px; }
+
+.about2 {
+  height: 100%;
+  width: 100%;
+  background-color: #F4BBD3;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-left: 80px;
+  padding-top: 100px; }
 
-.left p {
-  color: #F686BD;
-  width: 80%;
-  font-family: "Fira Sans", sans-serif;
-  margin-left: 100px; }
+textArea {
+  height: 300px;
+  width: 900px;
+  border-style: none; }
 
-.left h2 {
-  color: #F686BD;
-  font-family: "Emilys Candy", cursive;
-  margin-bottom: 20px;
-  margin-left: 100px;
-  font-size: 40px; }
-
-.right {
+.about3 {
   height: 100%;
-  width: 50%;
-  display: flex;
+  width: 100%;
+  background-color: #F1E4F3;
+  padding-top: 100px;
+  display: flex; }
+
+.about3 .left {
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 80px; }
+
+.about3 .right {
   align-items: center;
   justify-content: space-around;
   flex-direction: column; }
 
-.aboutImg {
-  width: 80%;
-  border-radius: 30px; }
+.resize {
+  width: 500px; }
 
-.mission {
+.jobBtn {
+  height: 150px;
+  width: 300px;
+  border-radius: 50px;
+  background-color: #F4BBD3;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px; }
+
+.about4 {
+  height: 100%;
+  width: 100%;
+  background-color: #F4BBD3;
+  display: flex; }
+
+.about4 .left {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.aboutLi li {
+  font-size: 20px;
+  margin-left: 100px; }
+
+.about4 .right {
+  align-items: center;
+  justify-content: center; }
+
+.products {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-image: url("../images/candyCrushFriends.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+
+.productBtn {
+  margin-right: 200px;
+  margin-top: -200px;
+  animation-name: buttonFade;
+  animation-duration: 1s; }
+
+@keyframes buttonFade {
+  from {
+    opacity: 0;
+    margin: 0; }
+  to {
+    margin-right: 200px;
+    margin-top: -200px;
+    opacity: 1; } }
+
+.products2 {
+  height: 100%;
+  width: 100%;
+  background-color: #F4BBD3;
+  display: flex;
+  align-items: Center;
+  justify-content: center;
+  flex-direction: column; }
+
+.productGames {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.productImg {
+  height: 300px;
+  width: 400px;
+  object-fit: cover; }
+
+.products3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-image: url("../images/farmHeroes.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+
+.products4 {
   height: 100%;
   width: 100%;
   background-color: #F4BBD3;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px; }
-
-.missionImg {
-  width: 40%; }
-
-.products {
-  height: 100%;
-  width: 100%;
-  background-color: #F1E4F3;
-  display: flex;
-  align-items: center;
-  justify-content: space-around; }
-
-.productDiv {
-  height: 400px;
-  width: 300px;
-  border-radius: 25px;
-  background-color: #F686BD;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   flex-direction: column; }
-
-.productImg {
-  width: 100%; }
-
-.productHeader {
-  font-family: "Emilys Candy", cursive;
-  color: #F1E4F3; }
-
-.productDiv p {
-  color: white;
-  width: 85%;
-  font-family: "Fira Sans", sans-serif; }
