@@ -2,7 +2,7 @@ var PROVIDER = (function(){
     var _allData = {};
     var currentPage = "";
     var _getData = function(callback){
-            $.getJSON("../data/data.json", function(data){
+            $.getJSON("data/data.json", function(data){
                 // this is when it has completed
                 // console.log('success', data);
             }).fail(function(error){
